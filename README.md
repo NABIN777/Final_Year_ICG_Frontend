@@ -1,4 +1,4 @@
-# trail_trekker
+# Image Caption Generator
 
 A new Flutter project.
 
