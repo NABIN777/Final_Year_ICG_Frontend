@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:imagecaptiongenerator/features/splash/presentation/state/splash_view_model.dart';
 
-import '../../../../configs/routers/app_route.dart';
-import '../viewmodel/splash_view_model.dart';
+import '../../../../config/routers/app_route.dart';
 
 class SplashView extends ConsumerStatefulWidget {
   const SplashView({super.key});

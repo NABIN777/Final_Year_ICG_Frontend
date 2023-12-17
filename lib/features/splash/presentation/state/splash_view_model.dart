@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:imagecaptiongenerator/config/routers/app_route.dart';
+import 'package:imagecaptiongenerator/core/shared_prefs/user_shared_prefs.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
-
-import '../../../../configs/routers/app_route.dart';
 
 final splashViewModelProvider = StateNotifierProvider<SplashViewModel, void>(
   (ref) {
